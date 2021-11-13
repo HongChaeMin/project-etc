@@ -13,7 +13,7 @@
         <link href="/resources/css/styles.css" rel="stylesheet" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
     </head>
-    <body class="bg-primary">
+    <body class="bg-success">
         <div id="layoutAuthentication">
             <div id="layoutAuthentication_content">
                 <main>
@@ -37,7 +37,7 @@
                                                 <label class="form-check-label" for="inputRememberPassword">Remember Password</label>
                                             </div>
                                             <div class="d-flex align-items-center justify-content-end mt-4 mb-0">
-                                                <a class="btn btn-primary" href="/admin/main.do">Login</a>
+                                                <a class="btn btn-success" href="/admin/main.do">Login</a>
                                             </div>
                                         </form>
                                     </div>
@@ -51,12 +51,7 @@
                 <footer class="py-4 bg-light mt-auto">
                     <div class="container-fluid px-4">
                         <div class="d-flex align-items-center justify-content-between small">
-                            <div class="text-muted">Copyright &copy; Your Website 2021</div>
-                            <div>
-                                <a href="#">Privacy Policy</a>
-                                &middot;
-                                <a href="#">Terms &amp; Conditions</a>
-                            </div>
+                            <div class="text-muted">Copyright &copy; Your Website 2021 minHong</div>
                         </div>
                     </div>
                 </footer>

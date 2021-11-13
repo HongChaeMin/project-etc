@@ -17,8 +17,8 @@
                             </a>
                             <div class="collapse" id="collapseLayouts" aria-labelledby="headingOne" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav">
-                                    <a class="nav-link" href="layout-static.html">관리자</a>
-                                    <a class="nav-link" href="layout-sidenav-light.html">사용자</a>
+                                    <a class="nav-link" href="/admin/adminCare.do">관리자</a>
+                                    <a class="nav-link" href="/admin/userCare.do">사용자</a>
                                 </nav>
                             </div>
                             <div class="sb-sidenav-menu-heading">Front</div>

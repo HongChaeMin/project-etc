@@ -10,8 +10,8 @@ var myLineChart = new Chart(ctx, {
     labels: ["11/11", "11/12", "11/13", "11/14", "11/15", "11/16"],
     datasets: [{
       label: "Revenue",
-      backgroundColor: "rgba(2,117,216,1)",
-      borderColor: "rgba(2,117,216,1)",
+      backgroundColor: "#4C967C",
+      borderColor: "#4C967C",
       data: [4215, 5312, 6251, 4215, 9821, 7000],
     }],
   },
