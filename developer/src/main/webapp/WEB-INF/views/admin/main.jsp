@@ -81,5 +81,8 @@
                     </div>
                 </main>
                 <%@ include file="../admin/templet/footer.jsp" %>
+                <script src="/resources/assets/demo/chart-area-demo.js"></script>
+		        <script src="/resources/assets/demo/chart-bar-demo.js"></script>
+		        <script src="/resources/assets/demo/chart-pie-demo.js"></script>
     </body>
 </html>

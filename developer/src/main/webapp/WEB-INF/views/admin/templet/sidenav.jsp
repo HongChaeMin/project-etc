@@ -29,14 +29,14 @@
                             </a>
                             <div class="collapse" id="collapsePages" aria-labelledby="headingTwo" data-bs-parent="#sidenavAccordion">
                                 <nav class="sb-sidenav-menu-nested nav accordion" id="sidenavAccordionPages">
-                                    <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuth" aria-expanded="false" aria-controls="pagesCollapseAuth">
-                                        게시물 관리
-                                    </a>
-                                    <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError">
-                                        카테고리 관리
-                                    </a>
+                                   <a class="nav-link" href="/admin/boardCare.do">게시물 관리</a>
+                                   <a class="nav-link" href="/admin/categoryCare.do">카테고리 관리</a>
                                 </nav>
                             </div>
+                            <a class="nav-link" href="tables.html">
+                                <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
+                                공지사항 관리
+                            </a>
                         </div>
                     </div>
                     <div class="sb-sidenav-footer">

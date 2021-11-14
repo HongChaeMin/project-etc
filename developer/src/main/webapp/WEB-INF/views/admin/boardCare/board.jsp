@@ -14,7 +14,7 @@
 				<div class="container-fluid px-4">
 					<div class="d-flex justify-content-between">
 						<div>
-							<h2 class="mt-4">관리자</h2>
+							<h2 class="mt-4">게시물</h2>
 						</div>
 					</div>
 					<div class="d-flex align-items-center mb-3 mt-3">
@@ -28,16 +28,15 @@
 							<div class="btn-group btn-group-toggle" data-toggle="buttons">
   								<label class="btn btn-secondary active">
     							<input type="radio" name="options" id="option1" autocomplete="off" checked> All</label>
-  								<label class="btn btn-secondary"><input type="radio" name="options" id="option2" autocomplete="off"> Block</label>
-  								<label class="btn btn-secondary"><input type="radio" name="options" id="option3" autocomplete="off"> unBlock</label>
+  								<label class="btn btn-secondary"><input type="radio" name="options" id="option2" autocomplete="off"> Title</label>
+  								<label class="btn btn-secondary"><input type="radio" name="options" id="option3" autocomplete="off"> Register</label>
 							</div>
 						</div>
 					</div>
 					<div class="card mb-4">
 						<div class="card-body">
 							<div class="mb-3 d-flex justify-content-end">
-								<input type="button" value="삭제" class="btn btn-danger mr-3">
-								<input type="button" value="추가" class="btn btn-success" onclick='location.href="/admin/adminCare/adminWritePage.do"'>
+								<input type="button" value="삭제" class="btn btn-danger">
 							</div>
 							<table class="table text-center">
 								<thead class="thead-dark">
@@ -45,8 +44,9 @@
 										<th></th>
 										<th></th>
 										<th>Num</th>
-										<th>Id</th>
-										<th>User Name</th>
+										<th>Title</th>
+										<th>Register</th>
+										<th>Blind (Y/N)</th>
 									</tr>
 								</thead>
 								<tbody>
@@ -54,22 +54,25 @@
 										<td></td>
 										<td><input type="checkbox" class="form-check-input"></td>
 										<td>1</td>
-										<td>coals0329</td>
+										<td onclick='location.href="/admin/boardCare/boardWritePage.do"'>spring 관련 질문있습니다.</td>
 										<td>홍채민</td>
+										<td>N</td>
 									</tr>
 									<tr>
 										<td></td>
 										<td><input type="checkbox" class="form-check-input"></td>
 										<td>2</td>
-										<td>ghdcoalss33</td>
+										<td>소스트리 어떻게 써용 ?</td>
 										<td>채민홍</td>
+										<td>N</td>
 									</tr>
 									<tr>
 										<td></td>
 										<td><input type="checkbox" class="form-check-input"></td>
 										<td>3</td>
-										<td>minHong</td>
+										<td>쿠버네티스란 ?</td>
 										<td>민홍채</td>
+										<td>Y</td>
 									</tr>
 								</tbody>
 							</table>

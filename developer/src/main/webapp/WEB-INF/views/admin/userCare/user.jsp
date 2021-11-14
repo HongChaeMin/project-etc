@@ -38,7 +38,7 @@
 							<div class="mb-3 d-flex justify-content-end">
 								<input type="button" value="삭제" class="btn btn-danger mr-3">
 							</div>
-							<table class="table">
+							<table class="table text-center">
 								<thead class="thead-dark">
 									<tr>
 										<th></th>
@@ -46,6 +46,8 @@
 										<th>Num</th>
 										<th>Id</th>
 										<th>User Name</th>
+										<th>Email</th>
+										<th></th>
 									</tr>
 								</thead>
 								<tbody>
@@ -55,13 +57,17 @@
 										<td>1</td>
 										<td>coals0329</td>
 										<td>홍채민</td>
+										<td>coals0329@naver.com</td>
+										<td><input type="button" class="btn btn-outline-dark btn-sm" value="block"></td>
 									</tr>
 									<tr>
 										<td></td>
 										<td><input type="checkbox" class="form-check-input"></td>
 										<td>2</td>
-										<td>ghdcoalss33</td>
+										<td onclick='location.href = "/admin/adminCare/userWritePage.do"'>ghdcoalss33</td>
 										<td>채민홍</td>
+										<td>ghdcoalss33@gmail.com</td>
+										<td><input type="button" class="btn btn-outline-dark btn-sm" value="block"></td>
 									</tr>
 									<tr>
 										<td></td>
@@ -69,6 +75,8 @@
 										<td>3</td>
 										<td>minHong</td>
 										<td>민홍채</td>
+										<td>coals0329@okjplus.com</td>
+										<td><input type="button" class="btn btn-outline-dark btn-sm" value="block"></td>
 									</tr>
 								</tbody>
 							</table>

@@ -28,11 +28,31 @@ public class AdminController {
 	
 	@GetMapping("/admin/adminCare/adminWritePage.do")
 	public String adminWritePage() {
-		return "admin/userCare/adminWritePage";
+		return "admin/userCare/adminWrite";
 	}
 	
 	@GetMapping("/admin/adminCare/userWritePage.do")
 	public String userWritePage() {
-		return "admin/userCare/userWritePage";
+		return "admin/userCare/userWrite";
+	}
+	
+	@GetMapping("/admin/boardCare.do")
+	public String boardCare() {
+		return "admin/boardCare/board";
+	}
+	
+	@GetMapping("/admin/categoryCare.do")
+	public String categoryCare() {
+		return "admin/boardCare/category";
+	}
+	
+	@GetMapping("admin/boardCare/boardWritePage.do")
+	public String boardWritePage() {
+		return "admin/boardCare/boardWrite";
+	}
+	
+	@GetMapping("admin/boardCare/categoryWritePage.do")
+	public String categoryWritePage() {
+		return "admin/boardCare/categoryWrite";
 	}
 }
