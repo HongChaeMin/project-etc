@@ -35,14 +35,9 @@
 					</div>
 					<div class="card mb-4">
 						<div class="card-body">
-							<div class="mb-3 d-flex justify-content-end">
-								<input type="button" value="삭제" class="btn btn-danger">
-							</div>
 							<table class="table text-center">
 								<thead class="thead-dark">
 									<tr>
-										<th></th>
-										<th></th>
 										<th>Num</th>
 										<th>Title</th>
 										<th>Register</th>
@@ -51,24 +46,18 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td></td>
-										<td><input type="checkbox" class="form-check-input"></td>
 										<td>1</td>
 										<td onclick='location.href="/admin/boardCare/boardWritePage.do"'>spring 관련 질문있습니다.</td>
 										<td>홍채민</td>
 										<td>N</td>
 									</tr>
 									<tr>
-										<td></td>
-										<td><input type="checkbox" class="form-check-input"></td>
 										<td>2</td>
 										<td>소스트리 어떻게 써용 ?</td>
 										<td>채민홍</td>
 										<td>N</td>
 									</tr>
 									<tr>
-										<td></td>
-										<td><input type="checkbox" class="form-check-input"></td>
 										<td>3</td>
 										<td>쿠버네티스란 ?</td>
 										<td>민홍채</td>

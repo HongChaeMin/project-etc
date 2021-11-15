@@ -16,6 +16,9 @@
                              <div class="border-0 mt-5">
                                  <div><h3 class="text-center font-weight-light my-4">Admin</h3></div>
                                  <div>
+                                 	<div class="mb-3 d-flex justify-content-end">
+										<input type="button" value="delete" class="btn btn-danger">
+									</div>
                                      <form>
                                          <div class="row mb-3">
                                              <div class="col-md-6">

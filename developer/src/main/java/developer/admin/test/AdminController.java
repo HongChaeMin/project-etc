@@ -55,4 +55,14 @@ public class AdminController {
 	public String categoryWritePage() {
 		return "admin/boardCare/categoryWrite";
 	}
+	
+	@GetMapping("admin/noticeCare.do")
+	public String noticeCare() {
+		return "admin/noticeCare/notice";
+	}
+	
+	@GetMapping("admin/noticeCare/noticeWritePage.do")
+	public String noticeWritePage() {
+		return "admin/noticeCare/noticeWrite";
+	}
 }

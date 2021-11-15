@@ -14,7 +14,7 @@
 				<div class="container-fluid px-4">
 					<div class="d-flex justify-content-between">
 						<div>
-							<h2 class="mt-4">사용자</h2>
+							<h2 class="mt-4">공지사항</h2>
 						</div>
 					</div>
 					<div class="d-flex align-items-center mb-3 mt-3">
@@ -24,44 +24,43 @@
   							</div>
   							<input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
 						</div>
-						<div class="ml-3">
-							<div class="btn-group btn-group-toggle" data-toggle="buttons">
-  								<label class="btn btn-secondary active">
-    							<input type="radio" name="options" id="option1" autocomplete="off" checked> All</label>
-  								<label class="btn btn-secondary"><input type="radio" name="options" id="option2" autocomplete="off"> Block</label>
-  								<label class="btn btn-secondary"><input type="radio" name="options" id="option3" autocomplete="off"> unBlock</label>
-							</div>
-						</div>
 					</div>
 					<div class="card mb-4">
 						<div class="card-body">
+							<div class="mb-3 d-flex justify-content-end">
+								<input type="button" value="추가" class="btn btn-success" onclick='location.href="/admin/noticeCare/noticeWritePage.do"'>
+							</div>
 							<table class="table text-center">
 								<thead class="thead-dark">
 									<tr>
 										<th>Num</th>
+										<th>Title</th>
+										<th>Start Date</th>
+										<th>End Date</th>
 										<th>Id</th>
-										<th>User Name</th>
-										<th>Email</th>
 									</tr>
 								</thead>
 								<tbody>
 									<tr>
 										<td>1</td>
-										<td>coals0329</td>
+										<td>공지사항</td>
+										<td>2021-11-15</td>
+										<td>2021-12-15</td>
 										<td>홍채민</td>
-										<td>coals0329@naver.com</td>
 									</tr>
 									<tr>
 										<td>2</td>
-										<td onclick='location.href = "/admin/adminCare/userWritePage.do"'>ghdcoalss33</td>
-										<td>채민홍</td>
-										<td>ghdcoalss33@gmail.com</td>
+										<td>공지사항</td>
+										<td>2021-11-15</td>
+										<td>2021-12-15</td>
+										<td>홍채민</td>
 									</tr>
 									<tr>
 										<td>3</td>
-										<td>minHong</td>
-										<td>민홍채</td>
-										<td>coals0329@okjplus.com</td>
+										<td>공지사항</td>
+										<td>2021-11-15</td>
+										<td>2021-12-15</td>
+										<td>홍채민</td>
 									</tr>
 								</tbody>
 							</table>

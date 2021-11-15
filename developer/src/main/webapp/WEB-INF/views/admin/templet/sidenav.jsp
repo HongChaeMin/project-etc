@@ -33,7 +33,7 @@
                                    <a class="nav-link" href="/admin/categoryCare.do">카테고리 관리</a>
                                 </nav>
                             </div>
-                            <a class="nav-link" href="tables.html">
+                            <a class="nav-link" href="/admin/noticeCare.do">
                                 <div class="sb-nav-link-icon"><i class="fas fa-table"></i></div>
                                 공지사항 관리
                             </a>

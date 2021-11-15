@@ -24,26 +24,15 @@
   							</div>
   							<input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
 						</div>
-						<div class="ml-3">
-							<div class="btn-group btn-group-toggle" data-toggle="buttons">
-  								<label class="btn btn-secondary active">
-    							<input type="radio" name="options" id="option1" autocomplete="off" checked> All</label>
-  								<label class="btn btn-secondary"><input type="radio" name="options" id="option2" autocomplete="off"> Block</label>
-  								<label class="btn btn-secondary"><input type="radio" name="options" id="option3" autocomplete="off"> unBlock</label>
-							</div>
-						</div>
 					</div>
 					<div class="card mb-4">
 						<div class="card-body">
 							<div class="mb-3 d-flex justify-content-end">
-								<input type="button" value="삭제" class="btn btn-danger mr-3">
 								<input type="button" value="추가" class="btn btn-success" onclick='location.href="/admin/adminCare/adminWritePage.do"'>
 							</div>
 							<table class="table text-center">
 								<thead class="thead-dark">
 									<tr>
-										<th></th>
-										<th></th>
 										<th>Num</th>
 										<th>Id</th>
 										<th>User Name</th>
@@ -51,22 +40,16 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td></td>
-										<td><input type="checkbox" class="form-check-input"></td>
 										<td>1</td>
 										<td>coals0329</td>
 										<td>홍채민</td>
 									</tr>
 									<tr>
-										<td></td>
-										<td><input type="checkbox" class="form-check-input"></td>
 										<td>2</td>
 										<td>ghdcoalss33</td>
 										<td>채민홍</td>
 									</tr>
 									<tr>
-										<td></td>
-										<td><input type="checkbox" class="form-check-input"></td>
 										<td>3</td>
 										<td>minHong</td>
 										<td>민홍채</td>
