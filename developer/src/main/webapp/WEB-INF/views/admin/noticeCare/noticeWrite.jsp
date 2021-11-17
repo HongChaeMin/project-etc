@@ -23,20 +23,6 @@
 										<input type="button" value="delete" class="btn btn-danger">
 									</div>
                                      <form>
-                                         <div class="row mb-3">
-                                             <div class="col-md-6">
-                                             	<span>Notice Num</span>
-                                                 <div class="mb-3 mb-md-0">
-                                                     <input class="form-control" id="inputFirstName" type="text" placeholder="Enter your first name" value="1" readonly/>
-                                                 </div>
-                                             </div>
-                                             <div class="col-md-6">
-                                             	 <span>User Name</span>
-                                                 <div>
-                                                     <input class="form-control" id="inputLastName" type="text" placeholder="Enter your last name" value="홍채민" readonly/>
-                                                 </div>
-                                             </div>
-                                         </div>
                                          <span>Title</span>
                                          <div class="mb-3">
                                              <input class="form-control" id="inputLastName" type="text" placeholder="Enter your last name" value="점검 공지"/>
