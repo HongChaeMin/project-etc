@@ -1966,11 +1966,12 @@ progress {
   --bs-table-active-bg: rgba(0, 0, 0, 0.1);
   --bs-table-hover-color: #212529;
   --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
-  width: 100%;
+  width: 450% !important;
   margin-bottom: 1rem;
   color: #212529;
   vertical-align: top;
   border-color: #dee2e6;
+  background-color: white;
 }
 .table > :not(caption) > * > * {
   padding: 0.5rem 0.5rem;
@@ -7492,8 +7493,8 @@ textarea.form-control-lg {
 }
 
 .py-5 {
-  padding-top: 3rem !important;
-  padding-bottom: 3rem !important;
+  padding-top: 2rem !important;
+  padding-bottom: 2rem !important;
 }
 
 .pt-0 {
@@ -11313,7 +11314,7 @@ html {
 aside,
 section {
   padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-bottom: 0.5rem;
 }
 
 .app-badge {
@@ -11387,7 +11388,7 @@ section {
 
 .device[data-device=iPhoneX][data-orientation=portrait][data-color=black] .screen {
   top: 3.1855955679%;
-  left: 6.8870523416%;
+  left: 10%;
   width: 86.2258953168%;
   height: 93.6288088643%;
 }
@@ -11442,6 +11443,7 @@ section.cta:before {
   fill: url(#circleGradient);
   width: 70%;
   display: none;
+  margin-top: 30%;
 }
 .features-device-mockup .circle .gradient-start-color {
   stop-color: #2937f0;
