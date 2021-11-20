@@ -3,21 +3,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<%@ include file="../member/templet/top.jsp"%>
+<%@ include file="../templet/top.jsp"%>
 </head>
 <body id="page-top">
 	<!-- Navigation-->
-	<%@ include file="../member/templet/header.jsp" %>
-	<section class="bg-gradient-primary-to-secondary" id="download">
-		<div class="container px-5">
-			<h2 class="text-center text-white font-alt">Welcome To Developer
-				Community!</h2>
-		</div>
-	</section>
+	<%@ include file="../templet/header.jsp" %>
 	<section>
 		<div class="col-lg-4 order-lg-0">
         <!-- Features section device mockup-->
-        <div class="features-device-mockup">
+        <div class="features-device-mockup mb-5 pb-5">
             <svg class="circle" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
                 <defs>
                     <linearGradient id="circleGradient" gradientTransform="rotate(45)">
@@ -33,7 +27,7 @@
             <div class="device-wrapper">
                 <div class="device" data-device="iPhoneX" data-orientation="portrait" data-color="black">
                     <div class="screen">
-                        <div class="display-4 mb-2">Top Posts</div>
+                        <div class="display-4 mb-2" style="width: 500px">Funny Posts</div>
 						<table class="table table-hover">
 							<thead class="bg-gradient-primary-to-secondary">
 								<tr>
@@ -102,75 +96,11 @@
             </div>
         </div>
 	</section>
-	<section class="container">
-		<div class="display-4 mb-2 ml-5">Recent Posts</div>
-		<table class="table table-hover ml-5" style="width: 95% !important;">
-			<thead class="bg-gradient-primary-to-secondary">
-				<tr>
-					<th scope="col">#</th>
-					<th scope="col">First</th>
-					<th scope="col">Last</th>
-					<th scope="col">Handle</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<th scope="row">1</th>
-					<td>Mark</td>
-					<td>Otto</td>
-					<td>@mdo</td>
-				</tr>
-				<tr>
-					<th scope="row">2</th>
-					<td>Jacob</td>
-					<td>Thornton</td>
-					<td>@fat</td>
-				</tr>
-				<tr>
-					<th scope="row">3</th>
-					<td colspan="2">Larry the Bird</td>
-					<td>@twitter</td>
-				</tr>
-				<tr>
-					<th scope="row">1</th>
-					<td>Mark</td>
-					<td>Otto</td>
-					<td>@mdo</td>
-				</tr>
-				<tr>
-					<th scope="row">2</th>
-					<td>Jacob</td>
-					<td>Thornton</td>
-					<td>@fat</td>
-				</tr>
-				<tr>
-					<th scope="row">3</th>
-					<td colspan="2">Larry the Bird</td>
-					<td>@twitter</td>
-				</tr>
-				<tr>
-					<th scope="row">1</th>
-					<td>Mark</td>
-					<td>Otto</td>
-					<td>@mdo</td>
-				</tr>
-				<tr>
-					<th scope="row">2</th>
-					<td>Jacob</td>
-					<td>Thornton</td>
-					<td>@fat</td>
-				</tr>
-				<tr>
-					<th scope="row">3</th>
-					<td colspan="2">Larry the Bird</td>
-					<td>@twitter</td>
-				</tr>
-			</tbody>
-		</table>
-	</section>
+
+	<div class="mb-5"></div>
 
 	<!-- Footer-->
-	<%@ include file="../member/templet/footer.jsp"%>
+	<%@ include file="../templet/footer.jsp"%>
 	<!-- Bootstrap core JS-->
 	<script
 		src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>

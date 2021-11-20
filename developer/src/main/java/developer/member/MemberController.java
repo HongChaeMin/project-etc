@@ -11,4 +11,14 @@ public class MemberController {
 		return "member/main";
 	}
 	
+	@GetMapping("/developerCoummunity/boardList.do")
+	public String boardList() {
+		return "member/board/boardList";
+	}
+	
+	@GetMapping("/developerCoummunity/mypage.do")
+	public String myPage() {
+		return "member/user/mypage";
+	}
+	
 }
