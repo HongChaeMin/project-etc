@@ -37,6 +37,9 @@
 								id="submitButton" type="submit">Submit</button>
 						</div>
 					</form>
+					<div class="mt-3">
+						<a href="/developerCoummunity/joinMember.do">회원가입</a>
+					</div>
 				</div>
 			</div>
 		</div>

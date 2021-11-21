@@ -9,6 +9,9 @@
 	<!-- Navigation-->
 	<%@ include file="../templet/header.jsp" %>
 	<section>
+		<div class="container d-flex justify-content-end">
+			<div><a href="/developerCoummunity/boardWrite.do" class="nav-link">글쓰기</a></div>
+		</div>
 		<div class="col-lg-4 order-lg-0">
         <!-- Features section device mockup-->
         <div class="features-device-mockup mb-5 pb-5">
@@ -38,56 +41,56 @@
 								</tr>
 							</thead>
 							<tbody>
-								<tr>
+								<tr onclick='location.href="/developerCoummunity/boardView.do"'>
 									<th scope="row">1</th>
 									<td>Mark</td>
 									<td>Otto</td>
-									<td>@mdo</td>
+									<td>@mdo [0]</td>
 								</tr>
 								<tr>
 									<th scope="row">2</th>
 									<td>Jacob</td>
 									<td>Thornton</td>
-									<td>@fat</td>
+									<td>@fat [0]</td>
 								</tr>
 								<tr>
 									<th scope="row">3</th>
 									<td colspan="2">Larry the Bird</td>
-									<td>@twitter</td>
+									<td>@twitter [0]</td>
 								</tr>
 								<tr>
 									<th scope="row">1</th>
 									<td>Mark</td>
 									<td>Otto</td>
-									<td>@mdo</td>
+									<td>@mdo [0]</td>
 								</tr>
 								<tr>
 									<th scope="row">2</th>
 									<td>Jacob</td>
 									<td>Thornton</td>
-									<td>@fat</td>
+									<td>@fat [0]</td>
 								</tr>
 								<tr>
 									<th scope="row">3</th>
 									<td colspan="2">Larry the Bird</td>
-									<td>@twitter</td>
+									<td>@twitter [0]</td>
 								</tr>
 								<tr>
 									<th scope="row">1</th>
 									<td>Mark</td>
 									<td>Otto</td>
-									<td>@mdo</td>
+									<td>@mdo [0]</td>
 								</tr>
 								<tr>
 									<th scope="row">2</th>
 									<td>Jacob</td>
 									<td>Thornton</td>
-									<td>@fat</td>
+									<td>@fat [0]</td>
 								</tr>
 								<tr>
 									<th scope="row">3</th>
 									<td colspan="2">Larry the Bird</td>
-									<td>@twitter</td>
+									<td>@twitter [0]</td>
 								</tr>
 							</tbody>
 						</table>

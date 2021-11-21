@@ -12,8 +12,7 @@
 	<!-- Navigation-->
 	<%@ include file="../templet/header.jsp"%>
 	<section class="container">
-		<!-- 리로드 되는건 싫지만 메뉴 아이디로 구분 지어서 c:if로 뿌려주도록 하자... -->
-		<div class="display-4 mb-2 ml-5 mt-5">내 정보 변경</div>
+		<div class="display-4 mb-2 ml-5 mt-5">회원가입</div>
 		<div class="bg-gradient-primary-to-secondary text-none mb-3">test</div>
 		<form>
 			<div class="row mb-3">
@@ -58,75 +57,10 @@
 			</div>
 			<div class="mt-4 mb-0">
 				<div class="d-grid">
-					<a class="btn bg-gradient-primary-to-secondary btn-block"
-						href="/admin/userCare.do">Submit</a>
+					<a class="btn bg-gradient-primary-to-secondary btn-block" href="/admin/userCare.do">Submit</a>
 				</div>
 			</div>
 		</form>
-		<!-- <div class="display-4 mb-2 mt-5">내 게시물</div>
-		<table class="table table-hover w-100">
-			<thead class="bg-gradient-primary-to-secondary">
-				<tr>
-					<th scope="col">#</th>
-					<th scope="col">First</th>
-					<th scope="col">Last</th>
-					<th scope="col">Handle</th>
-				</tr>
-			</thead>
-			<tbody>
-				<tr>
-					<th scope="row">1</th>
-					<td>Mark</td>
-					<td>Otto</td>
-					<td>@mdo</td>
-				</tr>
-				<tr>
-					<th scope="row">2</th>
-					<td>Jacob</td>
-					<td>Thornton</td>
-					<td>@fat</td>
-				</tr>
-				<tr>
-					<th scope="row">3</th>
-					<td colspan="2">Larry the Bird</td>
-					<td>@twitter</td>
-				</tr>
-				<tr>
-					<th scope="row">1</th>
-					<td>Mark</td>
-					<td>Otto</td>
-					<td>@mdo</td>
-				</tr>
-				<tr>
-					<th scope="row">2</th>
-					<td>Jacob</td>
-					<td>Thornton</td>
-					<td>@fat</td>
-				</tr>
-				<tr>
-					<th scope="row">3</th>
-					<td colspan="2">Larry the Bird</td>
-					<td>@twitter</td>
-				</tr>
-				<tr>
-					<th scope="row">1</th>
-					<td>Mark</td>
-					<td>Otto</td>
-					<td>@mdo</td>
-				</tr>
-				<tr>
-					<th scope="row">2</th>
-					<td>Jacob</td>
-					<td>Thornton</td>
-					<td>@fat</td>
-				</tr>
-				<tr>
-					<th scope="row">3</th>
-					<td colspan="2">Larry the Bird</td>
-					<td>@twitter</td>
-				</tr>
-			</tbody>
-		</table> -->
 	</section>
 
 	<div class="mb-5"></div>
@@ -141,13 +75,13 @@
 	<script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
 </body>
 <script>
-	$(function() {	
+	$(function() {
 		$('#datePicker').datepicker({
-		    dateFormat: "yy-mm-dd",
-		    autoclose : true,	//사용자가 날짜를 클릭하면 자동 캘린더가 닫히는 옵션
-		    yearRange: "1900:2022", // 연도 영역
-		    changeYear: true, // 날짜 셀렉박스
-		    altField: ".selecter", // 선택한 날짜가 폼에 들어감 -> 나중에 
+			dateFormat : "yy-mm-dd",
+			autoclose : true, //사용자가 날짜를 클릭하면 자동 캘린더가 닫히는 옵션
+			yearRange : "1900:2022", // 연도 영역
+			changeYear : true, // 날짜 셀렉박스
+			altField : ".selecter", // 선택한 날짜가 폼에 들어감 -> 나중에 
 		});//datepicker end
 	});//ready end
 </script>

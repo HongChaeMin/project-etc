@@ -32,7 +32,7 @@
 			          <a class="dropdown-item" href="/developerCoummunity/boardList.do">Something else here</a>
 			        </div>
 				</li>
-				<li class="nav-item dropdown">
+				<!-- <li class="nav-item dropdown">
 					<a class="nav-link me-lg-3 dropdown-toggle bg-gradient-primary-to-secondary text-white" href="#" id="my" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">My Page</a>
 					<div class="dropdown-menu" aria-labelledby="my">
 			          <a class="dropdown-item" href="/developerCoummunity/mypage.do">내 정보 변경</a>
@@ -41,14 +41,14 @@
 			          <div class="dropdown-divider"></div>
 			          <a class="dropdown-item" href="/developerCoummunity/mypage.do">Logout</a>
 			        </div>
-				</li>
-			</ul>
-			<!-- <button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0"
+				</li> -->
+				<button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0"
 				data-bs-toggle="modal" data-bs-target="#feedbackModal">
 				<span class="d-flex align-items-center"> <i
 					class="bi-chat-text-fill me-2"></i> <span class="small">Login</span>
 				</span>
-			</button> -->
+			</button>
+			</ul>
 		</div>
 	</div>
 </nav>
