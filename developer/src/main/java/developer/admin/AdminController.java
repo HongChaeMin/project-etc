@@ -35,34 +35,4 @@ public class AdminController {
 	public String userWritePage() {
 		return "admin/userCare/userWrite";
 	}
-	
-	@GetMapping("/admin/boardCare.do")
-	public String boardCare() {
-		return "admin/boardCare/board";
-	}
-	
-	@GetMapping("/admin/categoryCare.do")
-	public String categoryCare() {
-		return "admin/boardCare/category";
-	}
-	
-	@GetMapping("admin/boardCare/boardWritePage.do")
-	public String boardWritePage() {
-		return "admin/boardCare/boardWrite";
-	}
-	
-	@GetMapping("admin/boardCare/categoryWritePage.do")
-	public String categoryWritePage() {
-		return "admin/boardCare/categoryWrite";
-	}
-	
-	@GetMapping("admin/noticeCare.do")
-	public String noticeCare() {
-		return "admin/noticeCare/notice";
-	}
-	
-	@GetMapping("admin/noticeCare/noticeWritePage.do")
-	public String noticeWritePage() {
-		return "admin/noticeCare/noticeWrite";
-	}
 }

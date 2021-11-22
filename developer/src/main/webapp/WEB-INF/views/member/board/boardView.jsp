@@ -16,10 +16,6 @@
 					<a href="/developerCoummunity/boardWrite.do"
 						class="nav-link text-secondary">좋아요</a>
 				</div>
-				<div>
-					<a href="/developerCoummunity/boardWrite.do"
-						class="nav-link text-secondary">신고하기</a>
-				</div>
 			</div>
 		</div>
 		<div class="bg-gradient-primary-to-secondary text-none mb-3">test</div>
