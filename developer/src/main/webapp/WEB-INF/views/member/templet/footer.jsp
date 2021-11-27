@@ -19,24 +19,6 @@
 						data-bs-dismiss="modal" aria-label="Close"></button>
 				</div>
 				<div class="modal-body border-0 p-4">
-					<form id="contactForm" data-sb-form-api-token="API_TOKEN">
-						<!-- Name input-->
-						<div class="form-floating mb-3">
-							<input class="form-control" id="name" type="text"
-								placeholder="Enter your Id..." data-sb-validations="required" />
-							<label for="name">Id</label>
-						</div>
-						<!-- Email address input-->
-						<div class="form-floating mb-3">
-							<input class="form-control" id="email" type="password"
-								placeholder="Enter your PassWord..."
-								data-sb-validations="required,email" /> <label for="email">PassWord</label>
-						</div>
-						<div class="d-grid">
-							<button class="btn btn-primary btn-lg bg-gradient-primary-to-secondary"
-								id="submitButton" type="submit">Submit</button>
-						</div>
-					</form>
 					<div class="mt-3">
 						<a href="/developerCoummunity/joinMember.do">회원가입</a>
 					</div>

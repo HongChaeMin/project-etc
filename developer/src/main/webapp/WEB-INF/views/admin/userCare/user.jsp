@@ -53,7 +53,7 @@
 									</tr>
 									<tr>
 										<td>2</td>
-										<td onclick='location.href = "/admin/adminCare/userWritePage.do"'>ghdcoalss33</td>
+										<td onclick='location.href = "/admin/userCare/memberWritePage.do"'>ghdcoalss33</td>
 										<td>채민홍</td>
 										<td>ghdcoalss33@gmail.com</td>
 									</tr>

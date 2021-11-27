@@ -17,7 +17,7 @@
 			aria-expanded="false"><i class="fas fa-user fa-fw"></i></a>
 			<ul class="dropdown-menu dropdown-menu-end"
 				aria-labelledby="navbarDropdown">
-				<li><a class="dropdown-item" href="#!">Go Community</a></li>
+				<li><a class="dropdown-item" href="/developerCommunity/main.do">Go Community</a></li>
 				<li><hr class="dropdown-divider" /></li>
 				<li><a class="dropdown-item" href="/admin/login.do">Logout</a></li>
 			</ul></li>

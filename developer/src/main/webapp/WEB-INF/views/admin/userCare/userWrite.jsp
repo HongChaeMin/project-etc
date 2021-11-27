@@ -61,7 +61,7 @@
                                              <label for="inputEmail">Birth</label>
                                          </div>
                                          <div class="mt-4 mb-0">
-                                             <div class="d-grid"><a class="btn btn-primary btn-block" href="/admin/userCare.do">Submit</a></div>
+                                             <div class="d-grid"><a class="btn btn-primary btn-block" href="/admin/memberCare.do">Submit</a></div>
                                          </div>
                                      </form>
                                  </div>

@@ -28,7 +28,7 @@
 					<div class="card mb-4">
 						<div class="card-body">
 							<div class="mb-3 d-flex justify-content-end">
-								<input type="button" value="추가" class="btn btn-success" onclick='location.href="/admin/adminCare/adminWritePage.do"'>
+								<input type="button" value="추가" class="btn btn-success" onclick='location.href="/admin/userCare/adminWritePage.do"'>
 							</div>
 							<table class="table text-center">
 								<thead class="thead-dark">

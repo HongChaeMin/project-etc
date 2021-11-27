@@ -16,4 +16,19 @@ public class BoardController {
 		return "admin/boardCare/boardWrite";
 	}
 	
+	@GetMapping("/developerCoummunity/boardList.do")
+	public String boardList() {
+		return "member/board/boardList";
+	}
+	
+	@GetMapping("/developerCoummunity/boardWrite.do")
+	public String boardWrite() {
+		return "member/board/boardWritePage";
+	}
+	
+	@GetMapping("/developerCoummunity/boardView.do")
+	public String boardView() {
+		return "member/board/boardView";
+	}
+	
 }

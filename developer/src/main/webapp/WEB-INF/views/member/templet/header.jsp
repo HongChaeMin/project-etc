@@ -42,12 +42,12 @@
 			          <a class="dropdown-item" href="/developerCoummunity/mypage.do">Logout</a>
 			        </div>
 				</li> -->
-				<button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0"
-				data-bs-toggle="modal" data-bs-target="#feedbackModal">
-				<span class="d-flex align-items-center"> <i
-					class="bi-chat-text-fill me-2"></i> <span class="small">Login</span>
-				</span>
-			</button>
+				<button class="btn btn-primary rounded-pill px-3 mb-2 mb-lg-0" onclick='location.href="/developerCommunity/login.do"'>
+					<span class="d-flex align-items-center"> 
+						<i class="bi-chat-text-fill me-2"></i> 
+						<span class="small">Login</span>
+					</span>
+				</button>
 			</ul>
 		</div>
 	</div>

@@ -57,7 +57,7 @@
 			</div>
 			<div class="mt-4 mb-0">
 				<div class="d-grid">
-					<a class="btn bg-gradient-primary-to-secondary btn-block" href="/admin/userCare.do">Submit</a>
+					<a class="btn bg-gradient-primary-to-secondary btn-block" href="/admin/memberCare.do">Submit</a>
 				</div>
 			</div>
 		</form>
